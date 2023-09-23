@@ -7,7 +7,7 @@ const NavBar = () => {
     <>
     <header className='w-full px-32 py-8 font-medium flex items-center justify-between '>
         <nav className='flex gap-2'>
-            <Link href="/home" >Home</Link>
+            <Link href="/" >Home</Link>
             <Link href="/about" >About</Link>
             <Link href="/proyects" >Proyects</Link>
 
