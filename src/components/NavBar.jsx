@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import { DribbbleIcon, GitHubIcon, LinkedInIcon, PinterestIcon, XIcon } from './icons'
+import { DribbbleIcon, GitHubIcon, LinkedInIcon, Mountain, PinterestIcon, XIcon } from './icons'
 
 const NavBar = () => {
   return (
     <>
-    <header className='w-full px-32 py-8 font-medium flex items-center justify-between '>
+    <header className='w-full px-32 py-8 font-medium flex items-center justify-between flex-wrap '>
         <nav className='flex gap-2'>
             <Link href="/" >Home</Link>
             <Link href="/about" >About</Link>
@@ -21,6 +21,7 @@ const NavBar = () => {
             <a href='https://linkedin.com' target={'_blank'}><LinkedInIcon/></a>
             <a href='https://pinterest.com' target={'_blank'}><PinterestIcon/></a>
             <a href='https://dribble.com' target={'_blank'}><DribbbleIcon/></a>
+            <a href='/'><Mountain/></a>
 
         </nav>
     </header>
