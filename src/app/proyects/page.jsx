@@ -7,7 +7,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className='flex gap-5 m-5 justify-center flex-wrap p-32'>
+    <div className='flex gap-5 justify-center flex-wrap p-32'>
 
     {/* <AnimatedCards/> */}
       
@@ -17,7 +17,7 @@ const page = () => {
     </a>
     <div class="p-5">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Proyecto1:landing de ventas</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Proyecto landing de ventas</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Proyecto de creacion de un landing de ventas basado en una pagina de ventas de equipo para Padel,para relizar esta pagina se uso html y css junto con css flex</p>
         <a href="https://patriciof02.github.io/Proyecto1LandingDeVenta/" target={"_blank"} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -35,7 +35,7 @@ const page = () => {
     </a>
     <div class="p-5">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Proyecto 2: aplicación CRUD</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Proyecto aplicación CRUD</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Para este proyecto creamos una aplicación CRUD (create,read,update,delete) una aplicación capaz de crear, leer, actualizar y eliminar información, para relizar esta pagina se uso html,css,css flex y javascript</p>
         <a href="https://patriciof02.github.io/Proyecto2AplicacionCrud/" target={"_blank"} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -53,7 +53,7 @@ const page = () => {
     </a>
     <div class="p-5">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Proyecto3</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Proyecto Tablero de Datos ("Dashboard")</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Esta es una Web que muestra las ligas de futbol a nivel mundial, donde se entregan tabla de posiciones y un grafico para la comparación de victorias, empates y derrotas de los equipos de la liga seleccionada</p>
         <a href="https://edarvichm.github.io/Proyecto3_Grupo2/" target={"_blank"} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -71,7 +71,7 @@ const page = () => {
     </a>
     <div class="p-5">
         <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">proyecto4:aplicacionRestaurant</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Proyecto Aplicacion restaurant</h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">proyecto sobre aplicacion para restaurant, con react componentes y estilos</p>
         <a href="https://proyecto-4aplicacionrestaurant.netlify.app/" target={"_blank"} class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">

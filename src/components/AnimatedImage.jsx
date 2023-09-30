@@ -20,8 +20,8 @@ const desdeIzquierda={
 export const AnimatedImage = ({src}) => {
   return (
     <>
-        <motion.div initial='initial' animate='animate' variants={desdeIzquierda} className='w-1/2 '>
-              <Image className='rounded-e-full backdrop-blur-sm'src={src} width={500} height={500}/>
+        <motion.div initial='initial' animate='animate' variants={desdeIzquierda} className='md:w-1/2 '>
+              <Image className='w-full rounded-e-full 'src={src} width={500} height={500}/>
           </motion.div> 
     
     </>
