@@ -20,7 +20,7 @@ export default function Home() {
 
       
       <div className='md:w-1/2 p-10'>
-          <AnimatedText className="" text={"Mejorando experiencias con codigo"}/>
+          <AnimatedText className="" text={"Mejorando experiencias con código"}/>
           <p className='my-4 font-medium text-base text-center'>"Mi viaje en el mundo del desarrollo web es una búsqueda constante de inspiración. Cada proyecto es una oportunidad para fusionar creatividad y tecnología, dando vida a experiencias digitales impactantes. Explora mi portafolio y únete a este viaje de innovación y diseño."</p>
           <Link href="/assets/docs/cv.pdf" className='flex items-center justify-center bg-slate-900 text-slate-100 p2 rounded-lg text.lg hover:bg-slate-100 hover:text-slate-900 ' target={"_blank"} download={true} >Curriculum</Link>
           </div>
