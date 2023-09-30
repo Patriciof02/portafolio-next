@@ -4,7 +4,7 @@ import React from 'react'
 const page = () => {
   return (
     <div className='  p-32  w-full h-full  ' >
-      <AnimatedText className="text-4xl mb-10" text={"Patricio Figueroa C."}/>
+      <AnimatedText className="text-4xl mb-10" text={'Patricio Figueroa C.'}/>
       
      <p className='m-10 text-center '>Bienvenido a mi portafolio como desarrollador Stack MERN. Soy Patricio Figueroa, un apasionado desarrollador de software con experiencia en la creación de aplicaciones web modernas y escalables utilizando tecnologías de vanguardia. Mi enfoque principal se centra en la pila MERN, que incluye MongoDB para la base de datos, Express.js para el servidor, React para la interfaz de usuario y Node.js para la gestión del lado del servidor.
      </p>
