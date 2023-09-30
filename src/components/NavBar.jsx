@@ -41,8 +41,8 @@ const NavBar = () => {
         </div>
         <div className={
           menuOpen
-          ? "fixed left-0 top-0 w-[65] sm:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500 "
-          : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
+          ? 'fixed left-0 top-0 w-[65] sm:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500 '
+          : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
         }>
           <div className='flex w-full item-center justify-end'>
             <div onClick={handleNav} className='cursor-pointer'> 
@@ -51,17 +51,17 @@ const NavBar = () => {
           </div>
           <div className='flex py-2'>
             <ul>
-              <Link href="/" >
+              <Link href='/' >
                <li  onClick={() => setMenuOpen(false)} className=' my-4 cursor-pointer'>
                 Home
                </li>
             </Link>
-            <Link href="/about" >
+            <Link href='/about' >
                <li  onClick={() => setMenuOpen(false)} className='my-4 cursor-pointer'>
                 About
                </li>
             </Link>
-            <Link href="/proyects" >
+            <Link href='/proyects' >
                <li onClick={() => setMenuOpen(false)} className=' my-4 cursor-pointer'>
                 Proyects
                </li>
