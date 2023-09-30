@@ -17,7 +17,7 @@ const NavBar = () => {
   }
   return (
 
-    <header className='fixed bg-white w-full h-24 shadow-xl px-32 py-4 font-medium flex items-center justify-between flex-wrap  '>
+    <header className='fixed bg-white w-full h-24 shadow-xl px-32 py-4 font-medium flex items-center justify-between flex  '>
  
         <nav className='flex gap-2 hidden sm:flex'>
             <Link href="/" >Home</Link>
@@ -36,7 +36,7 @@ const NavBar = () => {
             <a href='https://dribble.com' target={'_blank'}><DribbbleIcon/></a>
           
         </nav>
-        <div onClick={handleNav} className='sm:hidden cursor-pointer pl-24'>
+        <div onClick={handleNav} className='sm:hidden cursor-pointer pl-1'>
           <AiOutlineMenu size={25}/>
         </div>
         <div className={

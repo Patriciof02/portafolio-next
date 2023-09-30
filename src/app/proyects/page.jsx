@@ -6,7 +6,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div className='flex gap-5 justify-center flex-wrap p-32'>
+    <div className='mx-3 pt-32 flex gap-5 justify-center flex-wrap md:p-32'>
       
 <div className='max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
     <div className='p-5'>
